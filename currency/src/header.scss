@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.App {
+  .header {
+    height: 100px;
+    width: 100%;
+    background-color: coral;
+    .header_list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style: none;
+      margin: 0;
+      padding: 39px 0 0 0;
+      .header_list-li {
+        list-style-type: none;
+        .header_list-link {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      .header_list-btn {
+        list-style-type: none;
+        text-decoration: none;
+        display: inline-block;
+      }
+    }
+  }
+}
